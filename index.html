@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/gambar/logo.png" type="image/x-icon" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/css/style.css" />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Animate Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Marketplace Fashion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  </head>
+  <body id="beranda">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark py-3 animate__animated animate__fadeInDown">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/gambar/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded" />
+          <span class="fw-bold text-warning">Market<span class="text-white">Fashion</span></span>
+        </a>
+        <button class="navbar-toggler bg-white shadow p-1 mb-2 bg-body-tertiary rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto d-flex gap-3 text-center pt-lg-0 pt-4">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#beranda">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#tentang">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#unggul">Keunggulan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#produk">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#faq">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Hero -->
+    <section class="hero overflow-hidden">
+      <div class="container">
+        <div class="hero-box d-flex align-items-center justify-content-between flex-md-row flex-column gap-md-0 gap-4">
+          <div class="box animate__animated animate__bounceInLeft animate__delay-1s">
+            <h1 class="fw-bold mb-3">Selamat Datang,<br />Pilih Fashionmu <br />Belanja di <span class="text-warning">Market Fashion</span></h1>
+            <p class="lh-lg mb-4">
+              Market Fashion adalah platform belanja online terpercaya yang menyediakan berbagai pilihan pakaian dengan kualitas terbaik dan harga terjangkau. Dapatkan pengalaman belanja yang mudah, cepat, dan memuaskan hanya di Market
+              Fashion.
+            </p>
+            <div>
+              <a href="#tentang" class="fw-medium btn btn-warning border-3">Tentang Kami</a>
+              <a href="#produk" class="fw-medium btn btn-outline-warning border-3">Produk Kami</a>
+            </div>
+          </div>
+          <div class="box animate__animated animate__bounceInRight animate__delay-1s">
+            <img src="./assets/gambar/hero.jpg" alt="Hero Image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero -->
+
+    <!-- About -->
+    <section class="about" id="tentang">
+      <div class="container">
+        <div class="about-box text-center">
+          <h1 class="fw-bold mb-4" data-aos="fade-up" data-aos-duration="1000">Tentang Kami</h1>
+          <p class="lh-lg mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+            Kami adalah penyedia fashion terdepan yang berkomitmen menghadirkan produk berkualitas tinggi dengan harga kompetitif. Visi kami adalah menjadi solusi utama untuk kebutuhan fashion Anda, dengan layanan ramah dan pengiriman cepat
+            ke seluruh Indonesia.
+          </p>
+          <img src="./assets/gambar/about.jpg" alt="About Image" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" />
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+
+    <!-- Keunggulan -->
+    <section class="unggulan" id="unggul">
+      <div class="container">
+        <div class="unggul-box">
+          <h1 class="fw-bold mb-4" data-aos="fade-up" data-aos-duration="1000">Keunggulan Kami</h1>
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Dibawah ini adalah beberapa keunggulan kami dari pengalaman pelanggan kami.</p>
+
+          <div class="box pt-4 d-flex gap-3 flex-md-row flex-column">
+            <div class="unggul p-4 shadow bg-warning text-white rounded-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+              <i class="fa-solid fa-handshake mb-3"></i>
+              <h4 class="mb-3 fw-bold">Layanan Memuaskan</h4>
+              <p class="lh-lg">Kami selalu mengutamakan kepuasan pelanggan dengan memberikan layanan terbaik. Dukungan pelanggan kami siap membantu Anda setiap saat untuk memastikan pengalaman belanja Anda lancar.</p>
+            </div>
+            <div class="unggul p-4 shadow bg-warning text-white rounded-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+              <i class="fa-solid fa-star mb-3"></i>
+              <h4 class="mb-3 fw-bold">Kualitas Terbaik</h4>
+              <p class="lh-lg">Produk kami dibuat dengan bahan pilihan dan proses produksi yang teliti, memastikan setiap item memiliki standar kualitas tertinggi untuk memenuhi kebutuhan fashion Anda.</p>
+            </div>
+            <div class="unggul p-4 shadow bg-warning text-white rounded-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+              <i class="fa-solid fa-thumbs-up mb-3"></i>
+              <h4 class="mb-3 fw-bold">Terpercaya</h4>
+              <p class="lh-lg">Market Fashion telah dipercaya oleh ribuan pelanggan sebagai platform belanja online yang aman dan terpercaya. Ulasan positif dari pelanggan kami menjadi bukti nyata.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Keunggulan -->
+
+    <!-- Produk -->
+    <section class="produk overflow-hidden" id="produk">
+      <div class="container px-4">
+        <div class="produk-box">
+          <h1 class="fw-bold mb-4 text-center" data-aos="fade-up" data-aos-duration="1000">Produk Kami</h1>
+          <p class="text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Berikut adalah beberapa produk kami yang paling populer.</p>
+
+          <div class="row justify-content-center pt-4 gap-4">
+            <div class="col col-md-5 col-12 shadow p-3 rounded" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+              <img src="./assets/gambar/produk 1.webp" alt="Produk Image" width="100%" />
+              <h4 class="pt-4">Kaos Cotton Combed</h4>
+              <p>Kaos berbahan Cotton Combed yang nyaman dan lembut di kulit, ideal untuk pemakaian sehari-hari. Tersedia dalam berbagai warna dan ukuran.</p>
+              <div>
+                <a
+                  href="https://shopee.co.id/Kaos-Oversize-Polos-Cotton-Combed-24s-Pria-Wanita-Unisex-i.1107020883.23859922115?sp_atk=9a370cd3-5917-48f5-b34d-180b864a3e33&xptdk=9a370cd3-5917-48f5-b34d-180b864a3e33"
+                  target="_blank"
+                  class="btn btn-dark"
+                  >Rp.35.900,00</a
+                >
+                <a
+                  href="https://shopee.co.id/Kaos-Oversize-Polos-Cotton-Combed-24s-Pria-Wanita-Unisex-i.1107020883.23859922115?sp_atk=9a370cd3-5917-48f5-b34d-180b864a3e33&xptdk=9a370cd3-5917-48f5-b34d-180b864a3e33"
+                  target="_blank"
+                  class="btn btn-warning"
+                  >Beli Sekarang</a
+                >
+              </div>
+            </div>
+            <div class="col col-md-5 col-12 shadow p-3 rounded" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+              <img src="./assets/gambar/produk 2.webp" alt="Produk Image" width="100%" />
+              <h4 class="pt-4">Kaos Polyester</h4>
+              <p>Kaos Polyester dengan bahan yang ringan dan tahan lama, cocok untuk aktivitas olahraga maupun santai. Hadir dengan desain minimalis dan modern.</p>
+              <div>
+                <a href="https://shopee.co.id/-Promo-Kaos-polos-PE-SOFT-Polyester-i.114157390.16357713948?sp_atk=466ce553-ec7e-4a36-857c-eb59ceb37e4a&xptdk=466ce553-ec7e-4a36-857c-eb59ceb37e4a" target="_blank" class="btn btn-dark"
+                  >Rp.20.000,00</a
+                >
+                <a href="https://shopee.co.id/-Promo-Kaos-polos-PE-SOFT-Polyester-i.114157390.16357713948?sp_atk=466ce553-ec7e-4a36-857c-eb59ceb37e4a&xptdk=466ce553-ec7e-4a36-857c-eb59ceb37e4a" target="_blank" class="btn btn-warning"
+                  >Beli Sekarang</a
+                >
+              </div>
+            </div>
+            <div class="col col-md-5 col-12 shadow p-3 rounded" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="550">
+              <img src="./assets/gambar/produk 3.webp" alt="Produk Image" width="100%" />
+              <h4 class="pt-4">Kaos Cotton Bamboo</h4>
+              <p>Kaos berbahan Cotton Bamboo yang ramah lingkungan, nyaman dipakai, dan memiliki sifat antibakteri. Pilihan tepat untuk gaya hidup sehat.</p>
+              <div>
+                <a
+                  href="https://shopee.co.id/-ANTI-BAKTERI-Kaos-Polos-Katun-Bambu-24S-Kaos-Polos-Cotton-Bamboo-i.6943025.4517287817?sp_atk=ac5a6b9e-3e8f-484d-9e35-d7a964110551&xptdk=ac5a6b9e-3e8f-484d-9e35-d7a964110551"
+                  target="_blank"
+                  class="btn btn-dark"
+                  >Rp.30.900,00</a
+                >
+                <a
+                  href="https://shopee.co.id/-ANTI-BAKTERI-Kaos-Polos-Katun-Bambu-24S-Kaos-Polos-Cotton-Bamboo-i.6943025.4517287817?sp_atk=ac5a6b9e-3e8f-484d-9e35-d7a964110551&xptdk=ac5a6b9e-3e8f-484d-9e35-d7a964110551"
+                  target="_blank"
+                  class="btn btn-warning"
+                  >Beli Sekarang</a
+                >
+              </div>
+            </div>
+            <div class="col col-md-5 col-12 shadow p-3 rounded" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="550">
+              <img src="./assets/gambar/produk 4.webp" alt="Produk Image" width="100%" />
+              <h4 class="pt-4">Kaos Rayon</h4>
+              <p>Kaos Rayon yang lembut dan ringan, memberikan kenyamanan maksimal saat dikenakan. Cocok untuk digunakan dalam aktivitas santai sehari-hari.</p>
+              <div>
+                <a
+                  href="https://shopee.co.id/MoS-Kaos-Wanita-T-Shirt-Rayon-PE-Lengan-Pendek-QUICK-PAYMENT-i.97146700.11107922957?sp_atk=1c4afe67-2b0e-4c83-94cf-2a929c214f9b&xptdk=1c4afe67-2b0e-4c83-94cf-2a929c214f9b"
+                  target="_blank"
+                  class="btn btn-dark"
+                  >Rp.16.900,00</a
+                >
+                <a
+                  href="https://shopee.co.id/MoS-Kaos-Wanita-T-Shirt-Rayon-PE-Lengan-Pendek-QUICK-PAYMENT-i.97146700.11107922957?sp_atk=1c4afe67-2b0e-4c83-94cf-2a929c214f9b&xptdk=1c4afe67-2b0e-4c83-94cf-2a929c214f9b"
+                  target="_blank"
+                  class="btn btn-warning"
+                  >Beli Sekarang</a
+                >
+              </div>
+            </div>
+            <div class="col col-md-5 col-12 shadow p-3 rounded" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
+              <img src="./assets/gambar/celana 1.webp" alt="Produk Image" width="100%" />
+              <h4 class="pt-4">Celana Reguler</h4>
+              <p>Celana dengan desain reguler yang cocok untuk semua aktivitas. Dilengkapi bahan berkualitas tinggi, memberikan kenyamanan sepanjang hari.</p>
+              <div>
+                <a
+                  href="https://shopee.co.id/Celana-Jeans-Pria-Reguler-Grey-Retro-Basic-Denim-Standar-Size-28-38-i.257351053.9533931556?sp_atk=86df69eb-45a0-492f-ac0d-8a00343e13a6&xptdk=86df69eb-45a0-492f-ac0d-8a00343e13a6"
+                  target="_blank"
+                  class="btn btn-dark"
+                  >Rp.72.500,00</a
+                >
+                <a
+                  href="https://shopee.co.id/Celana-Jeans-Pria-Reguler-Grey-Retro-Basic-Denim-Standar-Size-28-38-i.257351053.9533931556?sp_atk=86df69eb-45a0-492f-ac0d-8a00343e13a6&xptdk=86df69eb-45a0-492f-ac0d-8a00343e13a6"
+                  target="_blank"
+                  class="btn btn-warning"
+                  >Beli Sekarang</a
+                >
+              </div>
+            </div>
+            <div class="col col-md-5 col-12 shadow p-3 rounded" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
+              <img src="./assets/gambar/celana 2.webp" alt="Produk Image" width="100%" />
+              <h4 class="pt-4">Celana Skinny</h4>
+              <p>Celana skinny dengan potongan modern yang stylish. Bahan elastis memberikan kenyamanan ekstra, ideal untuk gaya kasual atau semi-formal.</p>
+              <div>
+                <a href="https://shopee.co.id/CELANA-SKINNY-PRIA-TERLARIS-i.571747919.23577823401?sp_atk=688ba2ca-e2c3-48df-975c-1a60988ac99f&xptdk=688ba2ca-e2c3-48df-975c-1a60988ac99f" target="_blank" class="btn btn-dark">Rp.163.930,00</a>
+                <a href="https://shopee.co.id/CELANA-SKINNY-PRIA-TERLARIS-i.571747919.23577823401?sp_atk=688ba2ca-e2c3-48df-975c-1a60988ac99f&xptdk=688ba2ca-e2c3-48df-975c-1a60988ac99f" target="_blank" class="btn btn-warning"
+                  >Beli Sekarang</a
+                >
+              </div>
+            </div>
+            <div class="col col-md-5 col-12 shadow p-3 rounded" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="650">
+              <img src="./assets/gambar/celana 3.webp" alt="Produk Image" width="100%" />
+              <h4 class="pt-4">Celana Scuba</h4>
+              <p>Celana berbahan scuba yang fleksibel dan nyaman digunakan. Cocok untuk kegiatan santai maupun aktif dengan desain trendi.</p>
+              <div>
+                <a href="https://shopee.co.id/AERUM-HIGHWAIST-SCUBA-PANTS-SAKU-PASPOL-i.23491942.20766803045?sp_atk=9998e280-ca27-4a3f-b425-4bf44dc11fd9&xptdk=9998e280-ca27-4a3f-b425-4bf44dc11fd9" target="_blank" class="btn btn-dark"
+                  >Rp.51.750,00</a
+                >
+                <a href="https://shopee.co.id/AERUM-HIGHWAIST-SCUBA-PANTS-SAKU-PASPOL-i.23491942.20766803045?sp_atk=9998e280-ca27-4a3f-b425-4bf44dc11fd9&xptdk=9998e280-ca27-4a3f-b425-4bf44dc11fd9" target="_blank" class="btn btn-warning"
+                  >Beli Sekarang</a
+                >
+              </div>
+            </div>
+            <div class="col col-md-5 col-12 shadow p-3 rounded" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="650">
+              <img src="./assets/gambar/celana 4.webp" alt="Produk Image" width="100%" />
+              <h4 class="pt-4">Celana Cargo</h4>
+              <p>Celana cargo dengan kantong tambahan yang fungsional. Terbuat dari bahan kuat dan tahan lama, cocok untuk kegiatan outdoor.</p>
+              <div>
+                <a
+                  href="https://shopee.co.id/Celana-panjang-cargo-Celana-cargo-panjang-Celana-premerim-Celana-cargo-i.1221266796.25676178384?sp_atk=3d5ab792-c147-49d6-9516-c4cdb733b6f1&xptdk=3d5ab792-c147-49d6-9516-c4cdb733b6f1"
+                  target="_blank"
+                  class="btn btn-dark"
+                  >Rp.64.800,00</a
+                >
+                <a
+                  href="https://shopee.co.id/Celana-panjang-cargo-Celana-cargo-panjang-Celana-premerim-Celana-cargo-i.1221266796.25676178384?sp_atk=3d5ab792-c147-49d6-9516-c4cdb733b6f1&xptdk=3d5ab792-c147-49d6-9516-c4cdb733b6f1"
+                  target="_blank"
+                  class="btn btn-warning"
+                  >Beli Sekarang</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Produk -->
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="faq-box">
+          <h1 class="fw-bold mb-4 text-center" data-aos="fade-up" data-aos-duration="1000">FAQ</h1>
+          <p class="text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Dibawah ini adalah beberapa pertanyaan yang sering ditanyakan pelanggan.</p>
+          <div class="accordion pt-4" id="accordionPanelsStayOpenExample">
+            <div class="row row-cols-md-2 row-cols-1 g-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+              <div class="col">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed bg-warning text-white fw-bold lh-lg"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseTwo"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseTwo"
+                    >
+                      Apakah bahanya premium?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">Ya, semua produk kami menggunakan bahan premium yang nyaman dipakai serta tahan lama. Kami memastikan hanya menggunakan bahan berkualitas tinggi.</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed bg-warning text-white fw-bold lh-lg"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseThree"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseThree"
+                    >
+                      Apakah terdapat tempat offline nya?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">Kami saat ini hanya menyediakan layanan penjualan online untuk memberikan harga terbaik. Namun, kami memiliki mitra distribusi di beberapa kota besar.</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed bg-warning text-white fw-bold lh-lg"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseFour"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseFour"
+                    >
+                      Apakah bisa COD?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                    <div class="accordion-body">Ya, kami mendukung metode pembayaran COD (Cash on Delivery) di beberapa area tertentu. Cek ketersediaan COD saat melakukan checkout.</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed bg-warning text-white fw-bold lh-lg"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseFive"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseFive"
+                    >
+                      Apakah terdapat bonus?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                    <div class="accordion-body">Kami sering memberikan promo menarik, seperti diskon atau hadiah langsung untuk pembelian dalam jumlah tertentu. Pantau terus halaman promo kami untuk info lebih lanjut!</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed bg-warning text-white fw-bold lh-lg"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseSix"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseSix"
+                    >
+                      Jika ditempat offline, apakah bisa QRIS?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                    <div class="accordion-body">Ya, kami menerima pembayaran melalui QRIS di toko mitra offline kami. Anda juga dapat menggunakan berbagai metode pembayaran digital lainnya.</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed bg-warning text-white fw-bold lh-lg"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseOne"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseOne"
+                    >
+                      Apakah bisa dikirim ke luar pulau?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                    <div class="accordion-body">Tentu saja, kami melayani pengiriman ke seluruh wilayah Indonesia, termasuk daerah terpencil dan luar pulau. Biaya pengiriman menyesuaikan lokasi Anda.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ -->
+
+    <!-- Footer -->
+    <section class="footer bg-dark">
+      <div class="container">
+        <div class="footer-box">
+          <div class="row justify-content-between row-gap-5">
+            <div class="col col-md-4 col-12 text-white">
+              <div class="d-flex align-items-center gap-2">
+                <img src="./assets/gambar/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded" />
+                <h2 class="fw-bold text-warning">Market<span class="text-white">Fashion</span></h2>
+              </div>
+              <p class="lh-lg opacity-75 m-0">Market Fashion adalah platform belanja online yang menghadirkan koleksi pakaian modern, berkualitas, dan terjangkau. Kami berkomitmen memberikan pengalaman belanja terbaik untuk Anda!</p>
+            </div>
+            <div class="col col-md-2 col-12 d-flex flex-column text-white gap-2">
+              <h4 class="fw-bold">Menu</h4>
+              <a href="#beranda" class="text-decoration-none text-white">Beranda</a>
+              <a href="#tentang" class="text-decoration-none text-white">Tentang</a>
+              <a href="#unggul" class="text-decoration-none text-white">Keunggulan</a>
+              <a href="#produk" class="text-decoration-none text-white">Produk</a>
+              <a href="#faq" class="text-decoration-none text-white">FAQ</a>
+            </div>
+            <div class="col col-md-4 col-12 d-flex flex-column text-white gap-3">
+              <h4 class="fw-bold">Kontak</h4>
+              <p class="m-0 d-flex align-items-center gap-2">
+                <i class="fa-solid fa-envelope"></i>
+                marketfashion@gmail.com
+              </p>
+              <p class="m-0 d-flex align-items-center gap-2">
+                <i class="fa-solid fa-phone"></i>
+                +62 423 7569 9387
+              </p>
+              <p class="m-0 d-flex align-items-center gap-2 lh-lg">
+                <i class="fa-solid fa-location-dot"></i>
+                Jalan orang tampan, Kel. tak terhingga, Kab. apalagi, Jawa Tengah, Indonesia
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright text-center text-white">
+          <p class="lh-lg">
+            &copy; Copyright by <span class="fw-bold">Markets<span class="text-warning">Fashion</span></span> 2024, All Right Reserved
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

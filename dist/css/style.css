@@ -1,0 +1,132 @@
+section {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+/* Hero */
+.hero-box .box p {
+  width: 600px;
+}
+
+.hero-box .box img {
+  border-radius: 10%;
+  outline: 5px solid #ffc107;
+  width: 500px;
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.hero-box .box:nth-child(1) {
+  --animate-delay: 0.3s;
+}
+
+.hero-box .box:nth-child(2) {
+  --animate-delay: 0.5s;
+}
+
+@media (max-width: 1200px) {
+  .hero-box .box img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 986px) {
+  .hero-box .box p {
+    font-size: 14px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 30px;
+  }
+  .hero-box {
+    text-align: center;
+  }
+  .hero-box .box p {
+    width: 100%;
+  }
+}
+/* Hero */
+
+/* About */
+.about-box img {
+  width: 500px;
+  border-radius: 10%;
+  outline: 5px solid #ffc107;
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 986px) {
+  .about-box p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) {
+  .about-box p {
+    width: 100%;
+  }
+  .about-box img {
+    width: 350px;
+  }
+}
+/* About */
+
+/* Keunggulan */
+@media (max-width: 986px) {
+  .unggul-box p {
+    font-size: 14px;
+  }
+}
+
+.unggul-box .unggul i {
+  font-size: 30px;
+}
+/* Keunggulan */
+
+/* Produk */
+@media (max-width: 986px) {
+  .produk-box p {
+    font-size: 14px;
+  }
+}
+
+.produk-box .row .col img {
+  height: 400px;
+  object-fit: cover;
+}
+/* Produk */
+
+/* FAQ */
+.faq-box .accordion-button::after {
+  background-color: #212529; /* Warna lingkaran putih */
+  border-radius: 50%; /* Membuat lingkaran */
+  width: 30px; /* Ukuran lingkaran */
+  height: 30px;
+  display: flex; /* Aktifkan Flexbox */
+  align-items: center; /* Pusatkan vertikal */
+  justify-content: center; /* Pusatkan horizontal */
+  color: #ffffff; /* Warna ikon menjadi putih */
+  font-size: 14px; /* Ukuran ikon */
+  content: "\25BC";
+}
+/* FAQ */
+
+/* Footer */
+.footer {
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+
+.footer-box .row .col:nth-child(2) a {
+  opacity: 75%;
+}
+
+.footer-box .row .col:nth-child(2) a:hover {
+  opacity: 100%;
+}
+
+.copyright {
+  margin-top: 80px;
+}
+/* Footer */
